@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "beatscore"
+  site-url: "https://funkstop.github.io/beatscore"
+  description: "Turn text into music. Hackathon using ElevenLabs"
+  repo-branch: main
+  repo-url: "https://github.com/funkstop/beatscore"
