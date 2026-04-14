@@ -1,6 +1,14 @@
 _docs/
 _proc/
 
+output/
+_docs/
+*.mp3 
+
+nbs/
+*.ipynb
+.ipynb_checkpoints/
+
 *.bak
 .gitattributes
 .last_checked
@@ -150,3 +158,4 @@ checklink/cookies.txt
 
 # Quarto
 .quarto
+beatscore/output/

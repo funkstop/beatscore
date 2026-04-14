@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beatscore"
+dynamic = ["version"]
+description = "Turn text into music. Hackathon using ElevenLabs"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "FS", email = "funkstop@internetplus.com"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "sentence-transformers",
+    "transformers",
+    "elevenlabs",
+    "feedparser",
+    "beautifulsoup4",
+    "requests",
+    "claudette",
+]
+
+[project.urls]
+Repository = "https://github.com/funkstop/beatscore"
+Documentation = "https://funkstop.github.io/beatscore/"
+
+[project.entry-points.nbdev]
+beatscore = "beatscore._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "beatscore.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["beatscore"]
+
+[tool.nbdev]
