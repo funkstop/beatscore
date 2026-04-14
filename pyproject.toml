@@ -43,3 +43,9 @@ version = {attr = "beatscore.__version__"}
 include = ["beatscore"]
 
 [tool.nbdev]
+nbs_path = "nbs"
+lib_path = "beatscore"
+doc_path = "_docs"
+recursive = "True"
+tst_flags = "notest"
+
