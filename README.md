@@ -1,6 +1,8 @@
 # beatscore
 
-A small libary that converts structured text into short music clips by mapping properties of the input (intensity, repetition, pace, tone, coherence) into promptable audio generation using the ElevenLabs Music API
+A small libary that converts structured text into short music clips by mapping properties of the input (intensity, repetition, pace, tone, coherence) into promptable audio generation using the ElevenLabs Music API. 
+
+See wome examples here: [Example generated music](https://funkstop.github.io/beatscore)
 
 The goal is to experiment how differences in source material can be perceptible in sound.
 
