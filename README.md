@@ -22,9 +22,6 @@ where:
  * source_type: one of 'news' or 'speech'. News expects sources to be a dictionary of rss feeds.
  * output_dir: the location for generated files
 
-
-
-
 ## News RSS Example:
 
 ```python
@@ -37,11 +34,9 @@ sources = {
     "rollingStone": "https://www.rollingstone.com/feed/"
     }
 
-
 run_digest(sources, "news", output_dir="./output")
 
 ```
-
 
 ## Speech example:
 
@@ -58,6 +53,15 @@ sources = {
 run_digest(sources, "speech", output_dir="./output")
 
 ```
+
+## Notes
+
+ * Built during an internal hackathon
+ * Focus is on taking properties of structured data and mapping them into musical prompts
+ * Uses the ElevenLabs Music API for audio generation
+ * Prompt construction and iteration were assisted by LLM tooling (Claudette)
+   
+This is an early exploration. The mappings are intentionally simple and exaggerated to make differences perceptible.
 
 ## Setup
 
