@@ -1,0 +1,12 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\ndef foo(\n    \n):\n\nCall self as a function.",
+    "crumbs": [
+      "core"
+    ]
+  }
+]
